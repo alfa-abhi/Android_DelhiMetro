@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/Start"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/Stop"
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/search"
+        android:layout_alignBottom="@+id/autoCompleteTextView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:id="@+id/listView11"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:id="@+id/listView14"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:onClick="PathFinderScreen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_delete"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView18"
+        android:textSize="30sp"
+        android:textAlignment="gravity"
+        android:visibility="invisible"
+        android:layout_above="@+id/listView11"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f9f9f9">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:onClick="PathFinderScreen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/home1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:onClick="StationInfoPrime"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/stationinfo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView32"
+        android:onClick="TourGuide"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tourguide" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:onClick="Recharge"
+        android:layout_below="@+id/imageView32"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/recharge" />
+</RelativeLayout>

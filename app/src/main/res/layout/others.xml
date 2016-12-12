@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/helpline"
+        android:src="@drawable/helpline"
+        android:onClick="Helpline"
+        android:layout_below="@+id/candt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/candt"
+        android:src="@drawable/cardsandtokens"
+        android:onClick="CandT"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/instrc"
+        android:src="@drawable/instructions"
+        android:onClick="Instructions"
+        android:layout_below="@+id/helpline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/irailway"
+        android:src="@drawable/railway"
+        android:onClick="IRailways"
+        android:layout_below="@+id/instrc"
+        android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/inform"
+            android:src="@drawable/info"
+            android:onClick="Inform"
+            android:layout_below="@+id/irailway"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/facilities"
+            android:src="@drawable/facilities"
+            android:onClick="Facilities"
+            android:layout_below="@+id/inform"
+            android:layout_alignRight="@+id/irailway"
+            android:layout_alignEnd="@+id/irailway" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/website"
+            android:src="@drawable/website"
+            android:onClick="Website"
+            android:layout_below="@+id/facilities"
+            android:layout_alignLeft="@+id/facilities"
+            android:layout_alignStart="@+id/facilities"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/devlop"
+            android:src="@drawable/developers"
+            android:onClick="Developers"
+            android:layout_below="@+id/website"
+            android:layout_alignLeft="@+id/facilities"
+            android:layout_alignStart="@+id/website"/>
+
+
+    </RelativeLayout>
+</ScrollView>

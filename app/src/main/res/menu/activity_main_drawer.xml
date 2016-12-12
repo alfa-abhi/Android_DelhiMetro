@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/path_finder"
+            android:icon="@drawable/pathfinder"
+            android:title="@string/Path_Finder" />
+        <item
+            android:id="@+id/network_information"
+            android:icon="@drawable/logo"
+            android:title="@string/Network_Information" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/mapsicon"
+            android:title="@string/Map" />
+        <item
+            android:id="@+id/others"
+            android:icon="@drawable/othersm"
+            android:title="@string/Other_Activities" />
+    </group>
+
+    <item android:title="@string/SM">
+        <menu>
+            <item
+                android:id="@+id/GPS"
+                android:icon="@drawable/gpstarget"
+                android:title="@string/SM1" />
+            <item
+                android:id="@+id/MAP"
+                android:icon="@drawable/mapsguide"
+                android:title="@string/SM2" />
+        </menu>
+    </item>
+
+</menu>

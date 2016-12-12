@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Metro Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Exit</string>
+
+    <string name="DM">Delhi Metro Guide</string>
+    <string name="Mail_ID">abhi1728@hotmail.com</string>
+
+    <string name="Home">Home</string>
+    <string name="Path_Finder">Path Finder</string>
+    <string name="Network_Information">Network Information</string>
+    <string name="Map">Map</string>
+    <string name="Other_Activities">Others</string>
+
+    <string name="Start">Start Station</string>
+    <string name="Stop">Destination Station</string>
+
+    <string name="L1">Red Line</string>
+    <string name="L2">Yellow Line</string>
+    <string name="L3">Blue Line</string>
+    <string name="L4">Violet Line</string>
+    <string name="L5">Green Line</string>
+    <string name="L6">Orange Line</string>
+    <string name="L7">Light Blue Line</string>
+
+    <string name="coms">For any Complaint/Queries/Suggestion.\nPlease contact:(24 hrs)</string>
+    <string name="v">Helpline Numbers: </string>
+    <string name="a">155370</string>
+    <string name="r">011-22561231</string>
+    <string name="aa">DMRC has fully automatic fare collection system and issues Smart Cards for multiple\n\nThe Samrt Cards can be recharged at Customer Care Centres of any Metro station and is valid for ten years from the day of last recharge.\n\nMinimum Value    :2000(Rs. 100/-from TVMs only)\n\nMaximum Value    :1000\n\nrefund Charges   :20\n\nSecurity Deposite:50\n\nEntry for children below three feet in height is free.\n\nSMART CARD FOR TOURISTS\n\nTwo types of tourists cards,valid for unlimited travel for one day and three days respectively,are also available\n\nValue of 1-Day Card:100\n\nValue of 3-Day Card:250\n\nSecurity Deposite:50</string>
+    <string name="aaa">*Old Delhi Railway Station*\nNearest Metro Station:  Chandani Chowk\nDistance From Neraest Metro: 900 mtrs.\n\n*Hazrat Nizamuddin Railway Station*\nNearest Metro Station:  Jangpura\nJawaharlal Nehru Stadium\nDistance From Neraest Metro: 1600 mtrs.\n\n*New Delhi Railway Station*\nNearest Metro Station:  New Delhi\nDistance From Nearest Metro: 70 mtrs.\n\n*Sarai Rohila*\nNearest Metro station:  Shastri Nagar\nDistance From Nearest Metro: 800 mtrs.\n\n*Subzi Mandi*\nNearest Metro Station:  Pratap Nagar\nDistance From Nearest Metro: 200 mtrs.\n\n*Anand Vihar Railway Terminal*\nNearest Metro station: Anand Vihar ISBT\nDistance From Nearest Metro: 20 mtrs.</string>
+    <string name="aaaa">Delhi Metro is perhaps India\'s first public transport system with adequate features for differently-abled persons.\nThese include:\n\n* Extra-Wide Automatic Flap Gates For wheelchair.\n* Tactile Paths For The Visually Impaired.\n* Provision Of Wheelchairs At Stations And Reversed Spaces For Wheelchair In Trains.\n* Lifts Have Been Provided With Wide Access Doors.\n\nSignage at prominent locations are provided for disabled and mobility restricted passengers.\n\nSeats in trains have been reserved for differently abled/senior citizens.\n\n\n[DMRC received National Award for Outstanding Work in Creation of Barrier Free Environment for the Persons with Disabilities in the Year 2008.]</string>
+    <string name="aaaaa">* Limit your baggage to 15 kgs, not exceeding 60cm (Length) x 45 cm (Breadth) x 25 cm (Height) in size.\n\n* Cooperate with the Metro staff in the friendly frisking and security check ups.\n\n* Option of buying Tokens (for a single journey), Smart cards (for frequent travellers), Tourist cards (for unlimited travel for one/three days).\n\n* Minimum fare of Rs 8/- (detailed fare chart is available at stations).\n\n* Adequate parking is available at stations, if you want to drive to the station.\n\nBicycle Rental Facility:-\n\nBicycles can be rented at some metro stations for benefit of commuters who want to travel short distance from the stations.\nA nominal ammount of Rs 10 is charged for using cycles for a minimum of four hours.Users have to provide a photo identity proof for availing the facility.\n\nSome of the prominent Metro Sations Where this facility is available:\nVishwavidyalaya, pragati Maidan, Patel Chowk and Indraprastha.\n\nThe Airport Express Line:-\n\nThe Airport Express Link is a state-of-the-art Metro corridor that connects the Indira Gandhi International Airport Terminal 3 with New Delhi City.\n\nCommuters can now zip to the Airport in only 18 minutes,whereas a road journey from the city to the Airport takes at least 45 minutes.\n\nThe main facilities and details of this corridor are,\nStations: New Delhi-shivaji Stadium-Dhaula Kuan-Delhi Aerocity-IGI Airport-Dwarka Sector 21.</string>
+    <string name="CN">Contact Numbers</string>
+
+    <string name="SD">Select Destination</string>
+    <string name="SM1">GPS Tracking</string>
+    <string name="SM2">Nearby Restaurants</string>
+    <string name="SM">Tracking</string>
+    <string name="NMS">Nearest Metro Station</string>
+    <string name="DNS">Distance from Nearest Station</string>
+    <string name="NOS">Stations</string>
+
+</resources>
